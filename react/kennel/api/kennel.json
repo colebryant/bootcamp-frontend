@@ -1,0 +1,143 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Younker",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jordan Nelson",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Blaise Roberts",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "10101 Binary Court"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "employeeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jack",
+      "breed": "German Shepherd",
+      "employeeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Angus",
+      "breed": "Golden Retriever",
+      "employeeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Henley",
+      "breed": "Australian Shepherd",
+      "employeeId": 3
+    },
+    {
+      "id": 5,
+      "name": "Derkins",
+      "breed": "Pug",
+      "employeeId": 4
+    },
+    {
+      "id": 6,
+      "name": "Checkers",
+      "breed": "Corgi",
+      "employeeId": 5
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Ryan Tanay",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Emma Beaton",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": 3,
+      "name": "Dani Adkins",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": 4,
+      "name": "Adam Oswalt",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": 5,
+      "name": "Fletcher Bangs",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": 6,
+      "name": "Angela Lee",
+      "phoneNumber": "123-456-7890"
+    }
+  ],
+  "intersections": [
+    {
+      "id": 1,
+      "ownerId": 6,
+      "animalId": 1
+    },
+    {
+      "id": 2,
+      "ownerId": 5,
+      "animalId": 2
+    },
+    {
+      "id": 3,
+      "ownerId": 4,
+      "animalId": 3
+    },
+    {
+      "id": 4,
+      "ownerId": 3,
+      "animalId": 4
+    },
+    {
+      "id": 5,
+      "ownerId": 2,
+      "animalId": 5
+    },
+    {
+      "id": 6,
+      "ownerId": 1,
+      "animalId": 6
+    },
+    {
+      "id": 7,
+      "ownerId": 2,
+      "animalId": 2
+    }
+  ]
+}

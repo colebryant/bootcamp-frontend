@@ -1,0 +1,40 @@
+.employees {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon--employee {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    width: 10rem;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.25rem;
+}
+
+.card-link {
+    margin: 12px 0 0 0;
+    font-size: 0.7em;
+}
+
+.employeeButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+}
+
+.card-subtitle {
+    text-align: center;
+}

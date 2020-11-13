@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500");
+
+body {
+  background-color: #21252b;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1.5px;
+  color: white;
+  word-spacing: 3px;
+  line-height: 30px;
+}
+
+/* HEADER CSS */
+
+.nav-container {
+  background-color: #21252b;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-content: center;
+  padding: 2em;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-item:hover {
+  opacity: 0.5;
+  transition: 0.25s;
+}
+/* HEADER CSS */
+/* FOOTER STYLING */
+
+.test {
+  font-size: 25px;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  background-color: #21252b;
+  text-align: center;
+  display: flex;
+}
+
+.test h3 {
+  color: white;
+  padding-left: 70%;
+  font-size: 15px;
+  padding-top: 15px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.test li {
+  display: flex;
+}
+
+.test li a {
+  margin: 10px;
+}
+
+.fa {
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+/* FOOTER STYLING */
+
+/* Executive Summary Styles */
+.content {
+  text-align: center;
+  padding-top: 50px;
+  background-color: #282c34;
+}
+
+.summaryIMG {
+  display: inline-block;
+  max-width: 300px;
+  transition: 2s;
+  padding-top: 25px;
+}
+
+.summaryIMG:hover {
+  transform: scale(1.05);
+}
+
+.content h2 {
+  padding-top: 50px;
+}
+
+/* Executive Summary Styles */
+
+/* Personal Page Styling */
+
+.content_personal {
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_personal h1 {
+  padding-top: 50px;
+}
+
+.container_personal {
+  border: solid 2px white;
+  border-radius: 1em;
+  margin: 1em;
+  width: 50em;
+}
+
+.family-pictures {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.family-pictures img {
+  transition: 2s;
+}
+
+.family-pictures img:hover {
+  transform: scale(1.05);
+}
+
+.picture-container {
+  padding: 1em;
+}
+
+.picture-container img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover
+}
+
+/* Career page CSS */
+
+.career_style {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.career_img {
+  margin: 10px 0px 10px 0px;
+  flex-basis: 40%;
+  margin: 5px;
+  width: 320px;
+  height: 280px;
+}
+
+.career_style a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.career_style a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.career_award h2 {
+  margin-top: 5px;
+}
+
+/* Personal Page Styling */
+/* Page Styles */
+/* news page table styling */
+
+th {
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+}
+td {
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+}
+h1 {
+  padding-bottom: 40px;
+}

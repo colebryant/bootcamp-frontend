@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Dameron';
+    src: url(dameron.ttf);
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 75%;
+    border-radius: 5%;
+}
+
+header, p {
+    color: #CC0E1D;
+    font-weight: bold;
+}
+
+p {
+    justify-content: center;
+}
+
+header {
+    font-family: Dameron, sans-serif;
+    font-size: 2em;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-color: #2C3034;
+}

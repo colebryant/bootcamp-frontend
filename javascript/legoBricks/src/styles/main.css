@@ -1,0 +1,17 @@
+article {
+    display:flex;
+    flex-direction: column;
+}
+
+button {
+    width: 15em;
+}
+
+select {
+    width: 10em;
+}
+
+article > label {
+    padding: 8px;
+    border: black solid 1px;
+}

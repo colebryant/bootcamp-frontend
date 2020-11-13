@@ -1,0 +1,8 @@
+#song-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.song {
+    border: 1px solid black;
+}

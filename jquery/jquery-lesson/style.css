@@ -1,0 +1,26 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.box {
+  width: 20vh;
+  height: 20vw;
+  background-color: cornflowerblue;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.card {
+  width: 40rem;
+  height: 20rem;
+  border: 1px solid black;
+}
+.card > * {
+  width: 30rem;
+  margin: auto;
+}

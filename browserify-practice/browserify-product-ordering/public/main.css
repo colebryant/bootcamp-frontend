@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+    background-color: coral;
+    padding: 1em;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navItem {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.companyItem {
+    font-size: 2em;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 12%;
+    padding: 2% 0%;
+    background-color: coral;
+    border-radius: 1em;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.pieContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    width: 70%;
+    margin: 0% 0% 3% 0%;
+    color: coral;
+}
+
+.pieImage {
+    width: 80%;
+    border-radius: 1em;
+}
+
+.pieReviews {
+    width: 65%;
+    padding: 0% 3%;
+    background-color: sandybrown;
+    border-radius: 1em;
+}

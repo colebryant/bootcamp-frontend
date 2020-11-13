@@ -1,0 +1,18 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+#journalEntry {
+    height: 40px;
+}
+
+button {
+   background-color: white;
+   margin: 5px;
+}
+
+#radio {
+    display: flex;
+    flex-direction: row;
+}
